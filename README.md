@@ -81,6 +81,16 @@ npm run build
 ```
 
 ---
+## 🛡️ Error Handling & Resilience
+
+The application is built to handle common external API challenges gracefully:
+
+* **User Feedback:** If a search yields no results, the user is notified with a clear message: *"No books found. Try another category."*
+* **Graceful Degradation:** If a book description is missing from the Open Library API, the system displays a polite fallback message instead of a technical error or an empty field.
+* **Loading States:** During asynchronous calls, **Skeleton Loaders** and **Spinners** are utilized to keep the user informed, preventing the "frozen app" experience.
+* **Smart Caching:** Previously fetched descriptions are cached locally per session to reduce API overhead and significantly improve response times.
+
+---
 
 ## 📖 Corporate Vision: Owly
 
