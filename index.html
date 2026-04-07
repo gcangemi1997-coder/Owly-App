@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owly🦉 - Esplora i Libri</title>
+    <link rel="stylesheet" href="/src/css/global.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Owly🦉</h1>
+        <p>Migliorare l'istruzione, un Libro alla volta</p>
+      </header>
+
+      <!-- Static structure of the page -->
+      <main>
+        <section class="search-container">
+          <input
+            type="text"
+            id="categoryInput"
+            placeholder="Inserisci una categoria (es. Fantasy, Storia, Thriller, ... )"
+          />
+          <button id="search-Btn">Cerca Libri</button>
+        </section>
+        <section id="results" class="results-container"></section>
+        <div id="pagination-wrapper" class="pagination-container hidden">
+          <button id="prevBtn" class="page-btn" disabled>← Precedente</button>
+          <span id="pageDisplay">Pagina 1</span>
+          <button id="nextBtn" class="page-btn">Successiva →</button>
+        </div>
+      </main>
+    </div>
+    <!-- Added JS'script to get all search results -->
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
