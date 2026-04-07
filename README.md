@@ -35,15 +35,6 @@ This project leverages modern frontend development tools:
 
 ---
 
-## 🚀 Key Technical Features
-
-- **Modular CSS Structure**: Styles are divided into functional files (variables, layout, components, etc.).
-- **Smart Caching**: Implementation of a local cache to store book details and reduce API overhead.
-- **Server-Side Pagination**: Manages large datasets efficiently through API parameters.
-- **Asynchronous UX**: Includes **Skeleton Loaders** and **Spinners** for active requests.
-
----
-
 ## 📂 Project Structure
 
 ```text
