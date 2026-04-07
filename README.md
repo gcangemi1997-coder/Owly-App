@@ -117,4 +117,10 @@ Following the mission of Team Owly, this platform is designed to be:
 
 ## 📩 Contact
 
+- 💼 GitHub: **https://github.com/gcangemi1997-coder**  
+- 📧 Email: `g.cangemi1997@gmail.com`  
+- 🌐 Portfolio / personal website link here 👉 https://gcangemi1997-coder.github.io/
+
+> Feel free to reach out if you want to talk about web development, learning paths, or new project ideas.
+
 **Team Owly** — Innovating primary education through technology.
