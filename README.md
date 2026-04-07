@@ -9,6 +9,12 @@
 
 ---
 
+## 📸 Preview
+
+![Desktop Preview](./src/img/preview.png)
+
+---
+
 ## 🛠️ Tech Stack & Tooling
 
 This project leverages modern frontend development tools:
