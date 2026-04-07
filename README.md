@@ -1,5 +1,10 @@
 # 🦉 Owly - EdTech SaaS Platform
 
+![Status](https://img.shields.io/badge/Status-Project%20Completed-brightgreen)
+![Vite](https://img.shields.io/badge/Frontend-Vite-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+
 **Owly** is a professional web application prototype designed for the primary education sector. Developed as a **SaaS (Software as a Service)** solution, it aims to support teachers and students through an intuitive interface.
 
 ---
