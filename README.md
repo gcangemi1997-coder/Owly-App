@@ -44,6 +44,3 @@
 │   ├── ui.js           # DOM manipulation and HTML rendering
 │   └── main.js         # App orchestrator, cache, and pagination logic
 └── README.md           # Project documentation
-
----
-## ⚙️ Installation & Local Development
