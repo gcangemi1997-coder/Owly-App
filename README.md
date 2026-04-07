@@ -7,6 +7,10 @@
 
 **Owly** is a professional web application prototype designed for the primary education sector. Developed as a **SaaS (Software as a Service)** solution, it aims to support teachers and students through an intuitive interface.
 
+## 🌐 Live Demo
+You can explore the live application here:  
+👉 [**Owly App - Live on Vercel**](https://owly-app.vercel.app/)
+
 ---
 
 ## 📸 Preview
@@ -37,25 +41,29 @@ This project leverages modern frontend development tools:
 
 ## 📂 Project Structure
 
-```text
-├── index.html          # Entry point for Vite
-├── package.json        # Project dependencies and scripts
-├── vite.config.js      # Vite configuration
-├── css/                # Modular stylesheet directory
-│   ├── global.css      # Main entry point (@import)
-│   ├── variables.css   # Design tokens: colors and fonts
-│   ├── layout.css      # Structural styles: grid and search bar
-│   ├── components.css  # UI elements: book cards and buttons
-│   ├── animations.css  # Spinners and skeleton effects
-│   └── responsive.css  # Media queries for mobile/tablet
-├── js/                 # Application logic
-│   ├── api.js          # API service layer
-│   ├── ui.js           # DOM rendering
-│   └── main.js         # App orchestrator
-└── README.md           # Documentation
 ```
 
----
+Owly-App/
+├── public/                # Static assets (Not processed by Vite)
+│   └── og-image.png       # Open Graph preview image (1200x630px)
+├── src/
+│   ├── css/               # Modular stylesheet directory
+│   │   ├── global.css     # Main entry point (@import)
+│   │   ├── variables.css  # Design tokens: colors and fonts
+│   │   ├── layout.css     # Structural styles: grid and search bar
+│   │   ├── components.css # UI elements: book cards and buttons
+│   │   ├── animations.css # Spinners and skeleton effects
+│   │   └── responsive.css # Media queries for mobile/tablet
+│   └── js/                # Application logic
+│       ├── api.js         # API service layer (Axios)
+│       ├── ui.js          # DOM rendering and UI updates
+│       └── main.js        # Application orchestrator
+├── index.html             # Entry point (SEO & Open Graph tags)
+├── package.json           # Project dependencies and scripts
+├── vite.config.js         # Vite configuration
+└── README.md              # Documentation
+
+```
 
 ## ⚙️ Installation & Local Development
 
