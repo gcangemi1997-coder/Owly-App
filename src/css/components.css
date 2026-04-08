@@ -31,6 +31,11 @@
   transition: background 0.3s;
 }
 
+.info-btn{
+  margin-top: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
 .info-btn:hover,
 #search-Btn:hover {
   background-color: var(--secondary);
