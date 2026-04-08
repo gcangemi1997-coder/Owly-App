@@ -44,24 +44,26 @@ This project leverages modern frontend development tools:
 ```
 
 Owly-App/
-├── public/                # Static assets (Not processed by Vite)
-│   └── og-image.png       # Open Graph preview image (1200x630px)
+├── public/                      # Asset statici (non processati da Vite)
+│   └── og-image.png             # Immagine anteprima Open Graph (1200x630px)
 ├── src/
-│   ├── css/               # Modular stylesheet directory
-│   │   ├── global.css     # Main entry point (@import)
-│   │   ├── variables.css  # Design tokens: colors and fonts
-│   │   ├── layout.css     # Structural styles: grid and search bar
-│   │   ├── components.css # UI elements: book cards and buttons
-│   │   ├── animations.css # Spinners and skeleton effects
-│   │   └── responsive.css # Media queries for mobile/tablet
-│   └── js/                # Application logic
-│       ├── api.js         # API service layer (Axios)
-│       ├── ui.js          # DOM rendering and UI updates
-│       └── main.js        # Application orchestrator
-├── index.html             # Entry point (SEO & Open Graph tags)
-├── package.json           # Project dependencies and scripts
-├── vite.config.js         # Vite configuration
-└── README.md              # Documentation
+│   ├── css/                     # Directory dei fogli di stile modulari
+│   │   ├── global.css           # Punto di ingresso principale (@import)
+│   │   ├── variables.css        # Design tokens: colori e font
+│   │   ├── layout.css           # Stili strutturali: grid e search bar
+│   │   ├── components.css       # Elementi UI: card dei libri e bottoni
+│   │   ├── animations.css       # Spinner ed effetti skeleton
+│   │   └── responsive.css       # Media queries per mobile/tablet
+│   └── js/                      # Logica dell'applicazione
+│       ├── api.js               # Service layer per API (Axios + Lodash)
+│       ├── ui.js                # Rendering del DOM e aggiornamenti UI
+│       ├── main.js              # Orchestratore dell'applicazione
+│       └── tests/               # Unit Testing
+│           └── books.test.js    # Test automatici con Vitest
+├── index.html                   # Entry point (SEO & tag Open Graph)
+├── package.json                 # Dipendenze del progetto e script (npm test)
+├── vite.config.js               # Configurazione di Vite
+└── README.md                    # Documentazione del progetto
 
 ```
 
