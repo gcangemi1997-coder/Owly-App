@@ -7,6 +7,17 @@
 
 **Owly** is a professional web application prototype designed for the primary education sector. Developed as a **SaaS (Software as a Service)** solution, it aims to support teachers and students through an intuitive interface.
 
+---
+## 📖 Corporate Vision: Owly
+
+Following the mission of Team Owly, this platform is designed to be:
+
+- **Accessible**: High-contrast UI for diverse learning needs.
+- **Inclusive**: Ready for future integrations like LIS (Italian Sign Language).
+- **Interactive**: Transforming book searches into dynamic learning tools.
+
+---
+
 ## 🌐 Live Demo
 You can explore the live application here:  
 👉 [**Owly App - Live on Vercel**](https://owly-app.vercel.app/)
@@ -38,6 +49,16 @@ This project leverages modern frontend development tools:
 - **API**: [Open Library Search API](https://openlibrary.org/developers/api).
 
 ---
+
+## 🏗 Architecture and Design Patterns
+The project implements the **Service Pattern** to ensure a clean separation of concerns:
+
+* **`api.js` (Service Layer)**: Exclusively handles API communication and raw data formatting.
+* **`ui.js` (UI Layer)**: Manages DOM manipulation and user interactions.
+* **Benefits**: This separation enables isolated testing of business logic and significantly improves code maintainability.
+
+---
+
 
 ## 📂 Project Structure
 
@@ -107,13 +128,18 @@ The application is built to handle common external API challenges gracefully:
 
 ---
 
-## 📖 Corporate Vision: Owly
+## 🧪 Testing
+The codebase is tested to ensure the reliability of critical functions. The test suite includes:
 
-Following the mission of Team Owly, this platform is designed to be:
+* **Author Data Formatting**: Verifies that author names are correctly processed.
+* **Fallback Management**: Ensures graceful handling of missing data (e.g., "Unknown Author").
+* **Safe Data Extraction**: Uses **Lodash** to securely extract descriptions, handling both string and object formats returned by the API.
 
-- **Accessible**: High-contrast UI for diverse learning needs.
-- **Inclusive**: Ready for future integrations like LIS (Italian Sign Language).
-- **Interactive**: Transforming book searches into dynamic learning tools.
+**To run the tests:**
+
+```bash
+npm test
+```
 
 ---
 
