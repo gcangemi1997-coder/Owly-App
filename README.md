@@ -147,7 +147,7 @@ npm test
 
 - 💼 GitHub: **https://github.com/gcangemi1997-coder**  
 - 📧 Email: `g.cangemi1997@gmail.com`  
-- 🌐 Portfolio / personal website link here 👉 https://gcangemi1997-coder.github.io/
+- 🌐 Portfolio / personal website link here 👉 https://gc-portfolio-eta.vercel.app/
 
 > Feel free to reach out if you want to talk about web development, learning paths, or new project ideas.
 
